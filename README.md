@@ -61,4 +61,5 @@ axes[1].set_title('SR_SRGAN(x4)')
 plt.tight_layout()
 plt.show()
 ```
-![result-lr](results/lr_0829x4-crop.png) ![result-srgan](results/srgan_0829x4-crop.png)
+![result-srgan](results/srgan-0829x4-crop.png)
+![result-srgan](results/srgan-0869x4-crop.png)
