@@ -1,7 +1,7 @@
 # super-resolution-with-jetsonNano
 
-##Getting started
-###Download Datasets
+## Getting started
+### Download Datasets
 '''python
   from data import DIV2K
   from model.srgan import generator, discriminator
