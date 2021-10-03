@@ -18,6 +18,7 @@
   val_dataset = val_dataset.dataset(batch_size=16)
 ```
 ### Train
+- You can train the model using train.py
 ```python
 from data import DIV2K
 from model.srgan import generator, discriminator
