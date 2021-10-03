@@ -63,3 +63,6 @@ plt.show()
 ```
 ![result-srgan](results/srgan-0829x4-crop.png)
 ![result-srgan](results/srgan-0869x4-crop.png)
+
+### Resources
+(https://github.com/krasserm/super-resolution)
