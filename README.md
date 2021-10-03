@@ -1,1 +1,1 @@
-# super-resolution-with-jetsonNano
+# super-resolution
