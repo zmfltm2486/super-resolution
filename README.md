@@ -1,7 +1,8 @@
-# super-resolution-with-jetsonNano
+# super-resolution
 
 ## Getting started
 ### Download Datasets
+- for traning [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 
 ```python
   from data import DIV2K
@@ -16,3 +17,4 @@
   val_dataset = DIV2K(scale=4, subset='valid', images_dir='div2k/images', caches_dir='div2k/caches')
   val_dataset = val_dataset.dataset(batch_size=16)
 ```
+### Train
