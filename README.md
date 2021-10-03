@@ -61,3 +61,4 @@ axes[1].set_title('SR_SRGAN(x4)')
 plt.tight_layout()
 plt.show()
 ```
+![result-srgan](results/lr_0821x4-crop.png)
