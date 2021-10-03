@@ -43,3 +43,21 @@ srgan_trainer.train(train_dataset=train_dataset, steps=200000)
 srgan_trainer.generator.save_weights('weights/srgan/gen_generator.h5')
 srgan_trainer.discriminator.save_weights('weights/srgan/gen_discriminator.h5')
 ```
+### Test
+- load your weights
+```python
+srgan_model = generator()
+srgan_model.load_weights('weights/srgan/gen_generator.h5')
+```
+- load your file & test
+```python
+lr = load_image(f'demo/{file}')
+hr_srgan = resolve_single(srgan_model, lr)
+fig, axes = plt.subplots(nrows=1, ncols=2)
+axes[0].imshow(lr)
+axes[0].set_title('LR')
+axes[1].imshow(hr_srgan)
+axes[1].set_title('SR_SRGAN(x4)')
+plt.tight_layout()
+plt.show()
+```
