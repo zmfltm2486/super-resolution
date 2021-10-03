@@ -2,7 +2,7 @@
 
 ## Getting started
 ### Download Datasets
-- for traning [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
+- for traning [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) used
 
 ```python
   from data import DIV2K
